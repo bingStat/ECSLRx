@@ -1,0 +1,18 @@
+Package: ECSLRx
+Type: Package
+Title: Ensemble Cost-Sensitive Logistic Regression with Mixed-type Penalty
+Version: 1.0.0
+Authors@R: c(
+    person("Bing", "Yang", email = "bing.yang@kuleuven.be", role = c("aut", "cre")),
+    person("Tim", "Verdonck", role = "aut"),
+    person("Stefan", "Van Aelst", role = "aut"))
+Description: Implements diverse ensemble cost-sensitive logistic regression
+    methods with Lasso + Group Lasso + Fused.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0), foreach (>= 1.5.2), doParallel (>= 1.0.17), Matrix (>= 1.5)
+Imports: Rcpp,RcppEigen,foreach,doParallel,caret,Matrix,dplyr,genlasso
+Suggests: pROC,PRROC,testthat,microbenchmark,ECSLRmulti
+LinkingTo: RcppEigen,Rcpp
+RoxygenNote: 7.3.3

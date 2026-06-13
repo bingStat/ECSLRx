@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+.Rproj.user
+*.o
+*.so
+*.dll
+*.tar.gz
+src/*.o
+src/*.dll
+src/*.so
+tests/testthat/test_run_computational_log.txt

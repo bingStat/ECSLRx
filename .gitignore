@@ -1,0 +1,30 @@
+# Editor / OS
+.Rhistory
+.Rproj.user
+.vscode/
+.ai/
+
+# Build artifacts
+*.o
+*.so
+*.dll
+*.tar.gz
+
+# Package backup
+package/ECSLR-multi.bak/
+
+# Experiment outputs (repro scripts only; results stay local)
+/runs/
+/Rlib/
+/application/
+/simulation/
+/aux_code/
+/scratch/
+/scripts/application/output/
+/scripts/application/bak/
+/scripts/application/data/
+/scripts/simulation/output/
+
+# Local-only (never publish)
+paper/
+hpc/

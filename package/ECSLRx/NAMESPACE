@@ -1,0 +1,3 @@
+useDynLib(ECSLRx, .registration = TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp,sourceCpp)
